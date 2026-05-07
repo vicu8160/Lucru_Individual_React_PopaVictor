@@ -1,0 +1,629 @@
+[
+    {
+        "id": 1,
+        "name": "Spaghete Carbonara",
+        "time": 20,
+        "difficulty": "Mediu",
+        "servings": 4,
+        "image": "https://images.unsplash.com/photo-1612874742237-6526221588e3?w=500",
+        "description": "Un preparat clasic italian cu pancetta crocantă, ouă și brânză Pecorino. Cremos, fără pic de smântână!",
+        "ingredients": [
+            {
+                "name": "Spaghete",
+                "amount": 400,
+                "unit": "g"
+            },
+            {
+                "name": "Pancetta",
+                "amount": 200,
+                "unit": "g"
+            },
+            {
+                "name": "Ouă",
+                "amount": 4,
+                "unit": "buc"
+            },
+            {
+                "name": "Pecorino Romano",
+                "amount": 100,
+                "unit": "g"
+            },
+            {
+                "name": "Piper negru",
+                "amount": 1,
+                "unit": "linguriță"
+            },
+            {
+                "name": "Sare",
+                "amount": 1,
+                "unit": "linguriță"
+            }
+        ],
+        "steps": [
+            "Pune o oală mare cu apă sărată la fiert și fierbe spaghetele al dente.",
+            "Cât timp fierb pastele, taie pancetta cubulețe și prăjește-o într-o tigaie pe foc mediu până devine crocantă.",
+            "Într-un bol, bate ouăle împreună cu Pecorino ras și mult piper negru.",
+            "Păstrează o cană de apă de la fiert, apoi scurge spaghetele.",
+            "Adaugă pastele fierbinți în tigaia cu pancetta (luată de pe foc) și amestecă pentru a le îmbrăca în grăsimea topită.",
+            "Toarnă rapid amestecul de ouă, amestecând energic pentru a obține un sos cremos. Adaugă apă de la paste după nevoie.",
+            "Servește imediat cu Pecorino în plus și piper negru deasupra."
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Pâine Prăjită cu Avocado",
+        "time": 5,
+        "difficulty": "Ușor",
+        "servings": 2,
+        "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=500",
+        "description": "Un mic dejun rapid și sănătos cu avocado cremos pe pâine de maia, cu fulgi de chili și lămâie.",
+        "ingredients": [
+            {
+                "name": "Pâine de maia",
+                "amount": 2,
+                "unit": "felii"
+            },
+            {
+                "name": "Avocado",
+                "amount": 1,
+                "unit": "buc"
+            },
+            {
+                "name": "Lămâie",
+                "amount": 0.5,
+                "unit": "buc"
+            },
+            {
+                "name": "Fulgi de chili",
+                "amount": 1,
+                "unit": "linguriță"
+            },
+            {
+                "name": "Sare",
+                "amount": 1,
+                "unit": "praf"
+            },
+            {
+                "name": "Piper negru",
+                "amount": 1,
+                "unit": "praf"
+            }
+        ],
+        "steps": [
+            "Prăjește feliile de pâine până devin aurii și crocante.",
+            "Taie avocado în două, scoate sâmburele și pune miezul într-un bol.",
+            "Zdrobește avocado cu zeama de lămâie, sare și piper.",
+            "Întinde generos pasta de avocado pe pâinea prăjită.",
+            "Presară fulgi de chili și un praf de sare în plus. Servește imediat."
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Tocană de Vită",
+        "time": 120,
+        "difficulty": "Greu",
+        "servings": 6,
+        "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=500",
+        "description": "O tocană consistentă, gătită lent, cu bucăți fragede de carne, legume rădăcinoase și sos bogat.",
+        "ingredients": [
+            {
+                "name": "Pulpă de vită",
+                "amount": 1000,
+                "unit": "g"
+            },
+            {
+                "name": "Morcovi",
+                "amount": 4,
+                "unit": "buc"
+            },
+            {
+                "name": "Cartofi",
+                "amount": 4,
+                "unit": "buc"
+            },
+            {
+                "name": "Ceapă",
+                "amount": 2,
+                "unit": "buc"
+            },
+            {
+                "name": "Usturoi",
+                "amount": 4,
+                "unit": "căței"
+            },
+            {
+                "name": "Supă de vită",
+                "amount": 1000,
+                "unit": "ml"
+            },
+            {
+                "name": "Pastă de roșii",
+                "amount": 2,
+                "unit": "linguri"
+            },
+            {
+                "name": "Făină",
+                "amount": 3,
+                "unit": "linguri"
+            },
+            {
+                "name": "Ulei de măsline",
+                "amount": 2,
+                "unit": "linguri"
+            },
+            {
+                "name": "Foi de dafin",
+                "amount": 2,
+                "unit": "buc"
+            }
+        ],
+        "steps": [
+            "Taie carnea de vită cuburi de 5 cm și usucă-le cu prosop de hârtie. Condimentează cu sare și piper.",
+            "Tăvălește bucățile de carne prin făină.",
+            "Încinge uleiul într-o oală mare și rumenește carnea pe toate părțile, în tranșe. Pune deoparte.",
+            "În aceeași oală, călește ceapa tocată și usturoiul până devin moi, aproximativ 5 minute.",
+            "Adaugă pasta de roșii și amestecă timp de 1 minut.",
+            "Pune carnea înapoi în oală, adaugă supa de vită și foile de dafin. Adu la fiert.",
+            "Acoperă și fierbe la foc mic timp de 1 oră, amestecând din când în când.",
+            "Adaugă morcovii și cartofii tăiați și mai fierbe încă 45 de minute, până se înmoaie.",
+            "Potrivește gustul, scoate foile de dafin și servește fierbinte cu pâine crocantă."
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Pui Stir Fry",
+        "time": 25,
+        "difficulty": "Mediu",
+        "servings": 4,
+        "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=500",
+        "description": "Un stir fry rapid și colorat cu pui suculent, legume crocante și un sos de soia cu ghimbir.",
+        "ingredients": [
+            {
+                "name": "Piept de pui",
+                "amount": 500,
+                "unit": "g"
+            },
+            {
+                "name": "Ardei gras",
+                "amount": 2,
+                "unit": "buc"
+            },
+            {
+                "name": "Broccoli",
+                "amount": 1,
+                "unit": "căpățână"
+            },
+            {
+                "name": "Usturoi",
+                "amount": 3,
+                "unit": "căței"
+            },
+            {
+                "name": "Ghimbir",
+                "amount": 1,
+                "unit": "lingură"
+            },
+            {
+                "name": "Sos de soia",
+                "amount": 4,
+                "unit": "linguri"
+            },
+            {
+                "name": "Ulei de susan",
+                "amount": 1,
+                "unit": "lingură"
+            },
+            {
+                "name": "Ulei vegetal",
+                "amount": 2,
+                "unit": "linguri"
+            },
+            {
+                "name": "Amidon de porumb",
+                "amount": 1,
+                "unit": "lingură"
+            }
+        ],
+        "steps": [
+            "Taie pieptul de pui în fâșii subțiri și amestecă-l cu amidonul și 1 lingură de sos de soia.",
+            "Taie ardeii gras și rupe broccoli în buchețele mici.",
+            "Toacă mărunt usturoiul și rade ghimbirul.",
+            "Încinge uleiul vegetal într-un wok sau într-o tigaie mare la foc iute.",
+            "Prăjește puiul până devine auriu și e gătit complet, aproximativ 5 minute. Scoate-l din tigaie.",
+            "Mai adaugă puțin ulei, apoi călește broccoli și ardeii timp de 3-4 minute.",
+            "Adaugă usturoiul și ghimbirul, lasă-le 30 de secunde să se încălzească până devin parfumate.",
+            "Pune puiul înapoi în tigaie, adaugă sosul de soia rămas și uleiul de susan. Amestecă bine.",
+            "Servește imediat peste orez aburind."
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Cheeseburger Clasic",
+        "time": 15,
+        "difficulty": "Ușor",
+        "servings": 2,
+        "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500",
+        "description": "Un burger suculent cu cheddar topit, salată proaspătă, roșie și sos picant într-o chiflă brioche prăjită.",
+        "ingredients": [
+            {
+                "name": "Carne tocată de vită",
+                "amount": 400,
+                "unit": "g"
+            },
+            {
+                "name": "Chifle brioche",
+                "amount": 2,
+                "unit": "buc"
+            },
+            {
+                "name": "Cașcaval cheddar",
+                "amount": 2,
+                "unit": "felii"
+            },
+            {
+                "name": "Salată verde",
+                "amount": 2,
+                "unit": "frunze"
+            },
+            {
+                "name": "Roșie",
+                "amount": 1,
+                "unit": "buc"
+            },
+            {
+                "name": "Ceapă",
+                "amount": 0.5,
+                "unit": "buc"
+            },
+            {
+                "name": "Sare",
+                "amount": 1,
+                "unit": "linguriță"
+            },
+            {
+                "name": "Piper negru",
+                "amount": 0.5,
+                "unit": "linguriță"
+            }
+        ],
+        "steps": [
+            "Împarte carnea tocată în 2 porții egale și formează cotlete puțin mai mari decât chiflele.",
+            "Condimentează generos pe ambele părți cu sare și piper.",
+            "Încinge o tigaie sau un grătar la foc iute. Prăjește cotletele 3-4 minute pe fiecare parte pentru mediu.",
+            "Pune o felie de cheddar pe fiecare cotlet în ultimul minut și acoperă pentru a topi brânza.",
+            "Prăjește chiflele brioche până devin aurii.",
+            "Taie roșia și ceapa felii. Spală salata.",
+            "Asamblează: chifla de jos, salată, cotlet cu brânză, roșie, ceapă, chifla de sus.",
+            "Servește fierbinte cu cartofi prăjiți alături."
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Risotto cu Ciuperci",
+        "time": 45,
+        "difficulty": "Greu",
+        "servings": 4,
+        "image": "https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=500",
+        "description": "Un risotto italian cremos și bogat, cu ciuperci aromate, vin alb și parmezan.",
+        "ingredients": [
+            {
+                "name": "Orez Arborio",
+                "amount": 320,
+                "unit": "g"
+            },
+            {
+                "name": "Ciuperci",
+                "amount": 400,
+                "unit": "g"
+            },
+            {
+                "name": "Supă de legume",
+                "amount": 1200,
+                "unit": "ml"
+            },
+            {
+                "name": "Vin alb",
+                "amount": 150,
+                "unit": "ml"
+            },
+            {
+                "name": "Ceapă",
+                "amount": 1,
+                "unit": "buc"
+            },
+            {
+                "name": "Usturoi",
+                "amount": 2,
+                "unit": "căței"
+            },
+            {
+                "name": "Parmezan",
+                "amount": 80,
+                "unit": "g"
+            },
+            {
+                "name": "Unt",
+                "amount": 50,
+                "unit": "g"
+            },
+            {
+                "name": "Ulei de măsline",
+                "amount": 2,
+                "unit": "linguri"
+            },
+            {
+                "name": "Pătrunjel proaspăt",
+                "amount": 2,
+                "unit": "linguri"
+            }
+        ],
+        "steps": [
+            "Încălzește supa de legume într-o oală și păstreaz-o caldă la foc mic.",
+            "Taie ciupercile felii și călește-le într-o tigaie cu ulei de măsline până devin aurii. Pune-le deoparte.",
+            "Toacă fin ceapa și mărunțește usturoiul.",
+            "Într-o tigaie mare, topește jumătate din unt și călește ceapa până devine moale, aproximativ 5 minute. Adaugă usturoiul.",
+            "Adaugă orezul Arborio și amestecă timp de 2 minute pentru a se prăji ușor.",
+            "Toarnă vinul alb și amestecă până se absoarbe complet.",
+            "Adaugă supa caldă câte un polonic, amestecând constant și așteptând să se absoarbă fiecare polonic înainte de următorul. Durează aproximativ 18-20 de minute.",
+            "Când orezul este cremos și al dente, adaugă ciupercile, restul de unt și parmezanul ras.",
+            "Garnisește cu pătrunjel tocat și servește imediat."
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Salată Grecească",
+        "time": 10,
+        "difficulty": "Ușor",
+        "servings": 4,
+        "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=500",
+        "description": "O salată mediteraneană răcoritoare, cu legume proaspete, măsline sărate și brânză feta cremoasă.",
+        "ingredients": [
+            {
+                "name": "Roșii",
+                "amount": 4,
+                "unit": "buc"
+            },
+            {
+                "name": "Castravete",
+                "amount": 1,
+                "unit": "buc"
+            },
+            {
+                "name": "Ceapă roșie",
+                "amount": 0.5,
+                "unit": "buc"
+            },
+            {
+                "name": "Ardei gras",
+                "amount": 1,
+                "unit": "buc"
+            },
+            {
+                "name": "Măsline Kalamata",
+                "amount": 100,
+                "unit": "g"
+            },
+            {
+                "name": "Brânză feta",
+                "amount": 200,
+                "unit": "g"
+            },
+            {
+                "name": "Ulei de măsline",
+                "amount": 4,
+                "unit": "linguri"
+            },
+            {
+                "name": "Oțet de vin roșu",
+                "amount": 1,
+                "unit": "lingură"
+            },
+            {
+                "name": "Oregano uscat",
+                "amount": 1,
+                "unit": "linguriță"
+            }
+        ],
+        "steps": [
+            "Taie roșiile felii groase și castravetele în semilune groase.",
+            "Taie ceapa roșie subțire și ardeiul gras în bucăți.",
+            "Combină toate legumele într-un castron mare împreună cu măslinele.",
+            "Stropește cu ulei de măsline și oțet de vin roșu, apoi presară oregano și sare.",
+            "Amestecă ușor pentru a combina ingredientele.",
+            "Pune deasupra o bucată mare (sau fărâmițată) de feta.",
+            "Servește imediat cu pâine crocantă."
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Somon cu Sparanghel",
+        "time": 30,
+        "difficulty": "Mediu",
+        "servings": 2,
+        "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=500",
+        "description": "File de somon prăjit cu pielea crocantă, alături de sparanghel copt și un sos de unt cu lămâie.",
+        "ingredients": [
+            {
+                "name": "File de somon",
+                "amount": 2,
+                "unit": "buc"
+            },
+            {
+                "name": "Sparanghel",
+                "amount": 400,
+                "unit": "g"
+            },
+            {
+                "name": "Lămâie",
+                "amount": 1,
+                "unit": "buc"
+            },
+            {
+                "name": "Unt",
+                "amount": 30,
+                "unit": "g"
+            },
+            {
+                "name": "Usturoi",
+                "amount": 2,
+                "unit": "căței"
+            },
+            {
+                "name": "Ulei de măsline",
+                "amount": 2,
+                "unit": "linguri"
+            },
+            {
+                "name": "Sare",
+                "amount": 1,
+                "unit": "linguriță"
+            },
+            {
+                "name": "Piper negru",
+                "amount": 0.5,
+                "unit": "linguriță"
+            }
+        ],
+        "steps": [
+            "Preîncălzește cuptorul la 200°C.",
+            "Curăță sparanghelul, amestecă-l cu ulei de măsline, sare și piper și aranjează-l pe o tavă.",
+            "Coace sparanghelul timp de 12-15 minute, până devine fraged și ușor crocant.",
+            "Usucă fileurile de somon cu prosop de hârtie și condimentează-le cu sare și piper.",
+            "Încinge uleiul într-o tigaie la foc mediu-mare. Pune somonul cu pielea în jos și prăjește-l 4-5 minute, până pielea e crocantă.",
+            "Întoarce-l și mai prăjește 2-3 minute pe cealaltă parte, până e gătit complet.",
+            "În ultimul minut, adaugă untul, usturoiul tocat și o stoarcere de lămâie. Stropește somonul cu acest sos.",
+            "Servește somonul cu sparanghelul copt și felii de lămâie."
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Pizza cu Pepperoni",
+        "time": 60,
+        "difficulty": "Greu",
+        "servings": 4,
+        "image": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=500",
+        "description": "O pizza clasică făcută în casă, cu blat pufos, sos de roșii, mozzarella topită și pepperoni picant.",
+        "ingredients": [
+            {
+                "name": "Făină",
+                "amount": 500,
+                "unit": "g"
+            },
+            {
+                "name": "Drojdie",
+                "amount": 7,
+                "unit": "g"
+            },
+            {
+                "name": "Apă caldă",
+                "amount": 300,
+                "unit": "ml"
+            },
+            {
+                "name": "Ulei de măsline",
+                "amount": 3,
+                "unit": "linguri"
+            },
+            {
+                "name": "Sos de roșii",
+                "amount": 200,
+                "unit": "ml"
+            },
+            {
+                "name": "Mozzarella",
+                "amount": 300,
+                "unit": "g"
+            },
+            {
+                "name": "Pepperoni",
+                "amount": 150,
+                "unit": "g"
+            },
+            {
+                "name": "Oregano uscat",
+                "amount": 1,
+                "unit": "linguriță"
+            },
+            {
+                "name": "Sare",
+                "amount": 1,
+                "unit": "linguriță"
+            },
+            {
+                "name": "Zahăr",
+                "amount": 1,
+                "unit": "linguriță"
+            }
+        ],
+        "steps": [
+            "Amestecă apa caldă, zahărul și drojdia. Lasă 5 minute, până face spumă.",
+            "Într-un bol mare, combină făina și sarea. Fă o adâncitură în mijloc.",
+            "Toarnă amestecul de drojdie și uleiul de măsline. Frământă până se formează un aluat.",
+            "Frământă aluatul pe o suprafață cu făină timp de 8-10 minute, până devine neted și elastic.",
+            "Pune-l într-un bol uns cu ulei, acoperă și lasă să crească 30-45 de minute, până se dublează.",
+            "Preîncălzește cuptorul la 250°C cu o piatră de pizza sau o tavă în interior.",
+            "Întinde aluatul într-un cerc de 30 cm.",
+            "Întinde sosul de roșii lăsând o margine. Presară mozzarella și aranjează feliile de pepperoni.",
+            "Presară oregano și coace 10-12 minute, până blatul e auriu și brânza e bulboasă.",
+            "Lasă să se răcească ușor, taie feliile și servește."
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Bowl Smoothie cu Fructe de Pădure",
+        "time": 8,
+        "difficulty": "Ușor",
+        "servings": 2,
+        "image": "https://images.unsplash.com/photo-1590301157890-4810ed352733?w=500",
+        "description": "Un bowl gros și cremos cu fructe de pădure, granola, fructe proaspete și semințe. Perfect pentru micul dejun.",
+        "ingredients": [
+            {
+                "name": "Fructe de pădure congelate",
+                "amount": 300,
+                "unit": "g"
+            },
+            {
+                "name": "Banană",
+                "amount": 1,
+                "unit": "buc"
+            },
+            {
+                "name": "Iaurt grecesc",
+                "amount": 150,
+                "unit": "g"
+            },
+            {
+                "name": "Miere",
+                "amount": 2,
+                "unit": "linguri"
+            },
+            {
+                "name": "Granola",
+                "amount": 60,
+                "unit": "g"
+            },
+            {
+                "name": "Semințe de chia",
+                "amount": 2,
+                "unit": "linguri"
+            },
+            {
+                "name": "Fructe de pădure proaspete",
+                "amount": 100,
+                "unit": "g"
+            },
+            {
+                "name": "Lapte de migdale",
+                "amount": 100,
+                "unit": "ml"
+            }
+        ],
+        "steps": [
+            "Pune în blender fructele congelate, banana, iaurtul grecesc, mierea și laptele de migdale.",
+            "Mixează la viteză mare până obții o compoziție groasă și fină. Adaugă mai mult lapte la nevoie, dar păstreaz-o groasă.",
+            "Toarnă în două boluri.",
+            "Garnisește cu granola, fructe proaspete și un strop de semințe de chia.",
+            "Stropește cu mai multă miere dacă dorești și servește imediat."
+        ]
+    }
+]
