@@ -47,7 +47,18 @@
             "Adaugă pastele fierbinți în tigaia cu pancetta (luată de pe foc) și amestecă pentru a le îmbrăca în grăsimea topită.",
             "Toarnă rapid amestecul de ouă, amestecând energic pentru a obține un sos cremos. Adaugă apă de la paste după nevoie.",
             "Servește imediat cu Pecorino în plus și piper negru deasupra."
-        ]
+        ],
+        "category": "Paste",
+        "tags": [
+            "italian",
+            "clasic"
+        ],
+        "nutrition": {
+            "calories": 620,
+            "protein": 28,
+            "carbs": 62,
+            "fat": 28
+        }
     },
     {
         "id": 2,
@@ -95,7 +106,19 @@
             "Zdrobește avocado cu zeama de lămâie, sare și piper.",
             "Întinde generos pasta de avocado pe pâinea prăjită.",
             "Presară fulgi de chili și un praf de sare în plus. Servește imediat."
-        ]
+        ],
+        "category": "Mic dejun",
+        "tags": [
+            "vegetarian",
+            "rapid",
+            "sanatos"
+        ],
+        "nutrition": {
+            "calories": 290,
+            "protein": 8,
+            "carbs": 30,
+            "fat": 16
+        }
     },
     {
         "id": 3,
@@ -167,7 +190,18 @@
             "Acoperă și fierbe la foc mic timp de 1 oră, amestecând din când în când.",
             "Adaugă morcovii și cartofii tăiați și mai fierbe încă 45 de minute, până se înmoaie.",
             "Potrivește gustul, scoate foile de dafin și servește fierbinte cu pâine crocantă."
-        ]
+        ],
+        "category": "Fel principal",
+        "tags": [
+            "carne",
+            "comfort food"
+        ],
+        "nutrition": {
+            "calories": 540,
+            "protein": 42,
+            "carbs": 24,
+            "fat": 28
+        }
     },
     {
         "id": 4,
@@ -234,7 +268,18 @@
             "Adaugă usturoiul și ghimbirul, lasă-le 30 de secunde să se încălzească până devin parfumate.",
             "Pune puiul înapoi în tigaie, adaugă sosul de soia rămas și uleiul de susan. Amestecă bine.",
             "Servește imediat peste orez aburind."
-        ]
+        ],
+        "category": "Fel principal",
+        "tags": [
+            "asiatic",
+            "pui"
+        ],
+        "nutrition": {
+            "calories": 410,
+            "protein": 35,
+            "carbs": 30,
+            "fat": 16
+        }
     },
     {
         "id": 5,
@@ -295,7 +340,18 @@
             "Taie roșia și ceapa felii. Spală salata.",
             "Asamblează: chifla de jos, salată, cotlet cu brânză, roșie, ceapă, chifla de sus.",
             "Servește fierbinte cu cartofi prăjiți alături."
-        ]
+        ],
+        "category": "Fel principal",
+        "tags": [
+            "carne",
+            "fast food"
+        ],
+        "nutrition": {
+            "calories": 750,
+            "protein": 40,
+            "carbs": 45,
+            "fat": 45
+        }
     },
     {
         "id": 6,
@@ -367,7 +423,18 @@
             "Adaugă supa caldă câte un polonic, amestecând constant și așteptând să se absoarbă fiecare polonic înainte de următorul. Durează aproximativ 18-20 de minute.",
             "Când orezul este cremos și al dente, adaugă ciupercile, restul de unt și parmezanul ras.",
             "Garnisește cu pătrunjel tocat și servește imediat."
-        ]
+        ],
+        "category": "Fel principal",
+        "tags": [
+            "italian",
+            "vegetarian"
+        ],
+        "nutrition": {
+            "calories": 480,
+            "protein": 12,
+            "carbs": 58,
+            "fat": 22
+        }
     },
     {
         "id": 7,
@@ -432,7 +499,19 @@
             "Amestecă ușor pentru a combina ingredientele.",
             "Pune deasupra o bucată mare (sau fărâmițată) de feta.",
             "Servește imediat cu pâine crocantă."
-        ]
+        ],
+        "category": "Salată",
+        "tags": [
+            "vegetarian",
+            "sanatos",
+            "rapid"
+        ],
+        "nutrition": {
+            "calories": 220,
+            "protein": 7,
+            "carbs": 14,
+            "fat": 16
+        }
     },
     {
         "id": 8,
@@ -493,7 +572,18 @@
             "Întoarce-l și mai prăjește 2-3 minute pe cealaltă parte, până e gătit complet.",
             "În ultimul minut, adaugă untul, usturoiul tocat și o stoarcere de lămâie. Stropește somonul cu acest sos.",
             "Servește somonul cu sparanghelul copt și felii de lămâie."
-        ]
+        ],
+        "category": "Fel principal",
+        "tags": [
+            "peste",
+            "sanatos"
+        ],
+        "nutrition": {
+            "calories": 390,
+            "protein": 38,
+            "carbs": 8,
+            "fat": 22
+        }
     },
     {
         "id": 9,
@@ -566,7 +656,18 @@
             "Întinde sosul de roșii lăsând o margine. Presară mozzarella și aranjează feliile de pepperoni.",
             "Presară oregano și coace 10-12 minute, până blatul e auriu și brânza e bulboasă.",
             "Lasă să se răcească ușor, taie feliile și servește."
-        ]
+        ],
+        "category": "Fel principal",
+        "tags": [
+            "italian",
+            "comfort food"
+        ],
+        "nutrition": {
+            "calories": 680,
+            "protein": 28,
+            "carbs": 70,
+            "fat": 32
+        }
     },
     {
         "id": 10,
@@ -624,6 +725,18 @@
             "Toarnă în două boluri.",
             "Garnisește cu granola, fructe proaspete și un strop de semințe de chia.",
             "Stropește cu mai multă miere dacă dorești și servește imediat."
-        ]
+        ],
+        "category": "Mic dejun",
+        "tags": [
+            "vegetarian",
+            "sanatos",
+            "rapid"
+        ],
+        "nutrition": {
+            "calories": 310,
+            "protein": 9,
+            "carbs": 54,
+            "fat": 8
+        }
     }
 ]

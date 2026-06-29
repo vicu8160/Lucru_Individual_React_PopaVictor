@@ -7,6 +7,15 @@ const initialState = {
     selectedRecipes: [],
 };
 
+function init() {
+    try {
+        const saved = localStorage.getItem(STORAGE_KEY);
+        return saved ? JSON.parse(saved) : initialState;
+    } catch {
+        return initialState;
+    }
+}
+
 function cartReducer(state, action) {
     switch (action.type) {
         case 'ADD_RECIPE': {
@@ -48,28 +57,13 @@ function cartReducer(state, action) {
             return { ...state, selectedRecipes: [] };
         }
 
-        case 'HYDRATE': {
-            return action.payload || initialState;
-        }
-
         default:
             return state;
     }
 }
 
 export function CartProvider({ children }) {
-    const [state, dispatch] = useReducer(cartReducer, initialState);
-
-    useEffect(() => {
-        try {
-            const saved = localStorage.getItem(STORAGE_KEY);
-            if (saved) {
-                dispatch({ type: 'HYDRATE', payload: JSON.parse(saved) });
-            }
-        } catch (err) {
-            console.error('Failed to load cart from storage:', err);
-        }
-    }, []);
+    const [state, dispatch] = useReducer(cartReducer, initialState, init);
 
     useEffect(() => {
         try {

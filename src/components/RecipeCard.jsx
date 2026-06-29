@@ -44,10 +44,19 @@ export default function RecipeCard({ recipe }) {
 
                 <img src={recipe.image} alt={recipe.name} className="recipe-image" />
 
+                {recipe.category && (
+                    <span className="card-category-badge">{recipe.category}</span>
+                )}
+
                 <div className="recipe-info">
                     <h3>{recipe.name}</h3>
                     <div className="recipe-meta">
                         <span className="recipe-time">⏱ {recipe.time} min</span>
+                        {recipe.nutrition?.calories && (
+                            <span className="recipe-calories">
+                                🔥 {recipe.nutrition.calories} kcal
+                            </span>
+                        )}
                         <span
                             className="difficulty-badge"
                             style={{ backgroundColor: colors.bg, color: colors.text }}

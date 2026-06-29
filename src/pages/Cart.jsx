@@ -1,7 +1,7 @@
 import { Link } from 'react-router';
 import { useState, useEffect } from 'react';
 import { useCart } from '../context/useCart';
-import { aggregateIngredients, formatAmount } from '../utils/aggregateIngredients';
+import { aggregateIngredients, aggregateNutrition, formatAmount } from '../utils/aggregateIngredients';
 
 const CHECKED_STORAGE_KEY = 'gourmet-explorer-checked';
 
@@ -26,6 +26,7 @@ export default function Cart() {
     }, [checkedItems]);
 
     const shoppingList = aggregateIngredients(selectedRecipes);
+    const nutrition = aggregateNutrition(selectedRecipes);
 
     const toggleChecked = (key) => {
         setCheckedItems((prev) => ({ ...prev, [key]: !prev[key] }));
@@ -67,6 +68,28 @@ export default function Cart() {
                 <h1>🛒 Lista de cumpărături</h1>
                 <p>Generată automat din rețetele selectate</p>
             </header>
+
+            <div className="nutrition-summary">
+                <h2 className="nutrition-summary-title">🔥 Total nutrițional</h2>
+                <div className="nutrition-summary-grid">
+                    <div className="nutrition-summary-item">
+                        <span className="ns-value">{nutrition.calories}</span>
+                        <span className="ns-label">kcal</span>
+                    </div>
+                    <div className="nutrition-summary-item">
+                        <span className="ns-value">{nutrition.protein}g</span>
+                        <span className="ns-label">Proteine</span>
+                    </div>
+                    <div className="nutrition-summary-item">
+                        <span className="ns-value">{nutrition.carbs}g</span>
+                        <span className="ns-label">Carbohidrați</span>
+                    </div>
+                    <div className="nutrition-summary-item">
+                        <span className="ns-value">{nutrition.fat}g</span>
+                        <span className="ns-label">Grăsimi</span>
+                    </div>
+                </div>
+            </div>
 
             <div className="cart-layout">
                 <section className="selected-recipes-panel">

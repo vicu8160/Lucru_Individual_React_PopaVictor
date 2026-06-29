@@ -7,6 +7,15 @@ const initialState = {
     favorites: [],
 };
 
+function init() {
+    try {
+        const saved = localStorage.getItem(STORAGE_KEY);
+        return saved ? JSON.parse(saved) : initialState;
+    } catch {
+        return initialState;
+    }
+}
+
 function favoritesReducer(state, action) {
     switch (action.type) {
         case 'ADD_FAVORITE': {
@@ -43,28 +52,13 @@ function favoritesReducer(state, action) {
             return { ...state, favorites: [] };
         }
 
-        case 'HYDRATE': {
-            return action.payload || initialState;
-        }
-
         default:
             return state;
     }
 }
 
 export function FavoritesProvider({ children }) {
-    const [state, dispatch] = useReducer(favoritesReducer, initialState);
-
-    useEffect(() => {
-        try {
-            const saved = localStorage.getItem(STORAGE_KEY);
-            if (saved) {
-                dispatch({ type: 'HYDRATE', payload: JSON.parse(saved) });
-            }
-        } catch (err) {
-            console.error('Eroare la încărcarea favoritelor:', err);
-        }
-    }, []);
+    const [state, dispatch] = useReducer(favoritesReducer, initialState, init);
 
     useEffect(() => {
         try {

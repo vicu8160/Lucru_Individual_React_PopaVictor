@@ -59,6 +59,14 @@ export default function RecipeDetail() {
 
                 <div className="detail-content">
                     <h1 className="detail-title">{recipe.name}</h1>
+                    {recipe.category && (
+                        <div className="detail-tags-row">
+                            <span className="detail-category-badge">{recipe.category}</span>
+                            {(recipe.tags || []).map((t) => (
+                                <span key={t} className="detail-tag">#{t}</span>
+                            ))}
+                        </div>
+                    )}
                     <p className="detail-description">{recipe.description}</p>
 
                     <div className="detail-stats">
@@ -128,6 +136,31 @@ export default function RecipeDetail() {
                             </ol>
                         </section>
                     </div>
+
+                    {recipe.nutrition && (
+                        <section className="nutrition-section">
+                            <h2 className="section-title">🔥 Informații nutriționale</h2>
+                            <p className="nutrition-subtitle">Valori estimate pe porție</p>
+                            <div className="nutrition-grid">
+                                <div className="nutrition-card nutrition-calories">
+                                    <span className="nutrition-value">{recipe.nutrition.calories}</span>
+                                    <span className="nutrition-label">kcal</span>
+                                </div>
+                                <div className="nutrition-card">
+                                    <span className="nutrition-value">{recipe.nutrition.protein}g</span>
+                                    <span className="nutrition-label">Proteine</span>
+                                </div>
+                                <div className="nutrition-card">
+                                    <span className="nutrition-value">{recipe.nutrition.carbs}g</span>
+                                    <span className="nutrition-label">Carbohidrați</span>
+                                </div>
+                                <div className="nutrition-card">
+                                    <span className="nutrition-value">{recipe.nutrition.fat}g</span>
+                                    <span className="nutrition-label">Grăsimi</span>
+                                </div>
+                            </div>
+                        </section>
+                    )}
                 </div>
             </article>
         </div>
